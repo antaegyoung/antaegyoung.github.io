@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  background-color: #000;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+span {
+  font-size: 22px;
+}
+
+header,
+nav,
+main,
+article,
+aside,
+section,
+footer {
+  display: block;
+}
+
+.grid {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header .loading img {
+  width: 100%;
+}
+
+header .helloBig img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+header .menu {
+  position: relative;
+}
+
+header .menu .logo h1 img {
+  width: 70px;
+  margin-left: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  header .menu .logo h1 img {
+    width: 100px;
+  }
+}
+
+header .menu .mobile-menu {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+header .menu .mobile-menu span {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #fff;
+}
+
+header .menu .mobile-menu span:nth-child(2) {
+  margin: 15px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  header .menu .mobile-menu {
+    display: none;
+  }
+}
+
+header .menu .pc-menu {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  header .menu .pc-menu {
+    display: block;
+    width: 100%;
+  }
+}
+
+header .menu .pc-menu ul {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 35px;
+  right: 30px;
+}
+
+header .menu .pc-menu ul li {
+  width: 25%;
+  text-align: center;
+}
+
+header .menu .pc-menu ul li a {
+  color: #fff;
+}
+
+header .menu .pc-menu ul li a:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+main .page1 .grid .hello-mac img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page1 .grid .hello-mac img {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+main .page2 #aboutme {
+  margin: 50px 0;
+  margin-left: 8%;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page2 #aboutme {
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-top: 150px;
+  }
+}
+
+main .page2 #aboutme p {
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+main .page2 #aboutme span {
+  color: #fff;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page2 .grid .flex-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .page2 .grid .flex-box .ipad {
+    width: 40%;
+    margin-left: 10%;
+  }
+}
+
+main .page2 .grid .flex-box .ipad img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page2 .grid .flex-box .ipad img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+main .page2 .grid .flex-box .intro {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page2 .grid .flex-box .intro {
+    width: 40%;
+    margin-right: 10%;
+  }
+}
+
+main .page2 .grid .flex-box .intro p {
+  font-size: 20px;
+  color: #fff;
+}
+
+main .page3 #skill {
+  margin: 50px 0;
+  margin-left: 8%;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page3 #skill {
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-top: 150px;
+  }
+}
+
+main .page3 #skill p {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  color: #e80511;
+}
+
+main .page3 #skill span {
+  font-size: 15px;
+  color: #e80511;
+}
+
+main .page4 #content {
+  margin: 50px 0;
+  margin-left: 8%;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page4 #content {
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-top: 150px;
+  }
+}
+
+main .page4 #content p {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+main .page4 #content span {
+  font-size: 15px;
+  color: #fff;
+}
+
+main .page4 .slide button {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: black;
+}
+
+main .page5 #coding {
+  margin: 50px 0;
+  margin-left: 8%;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page5 #coding {
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-top: 150px;
+  }
+}
+
+main .page5 #coding p {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  color: #e80511;
+}
+
+main .page5 #coding span {
+  font-size: 15px;
+  color: #e80511;
+}
+
+main .page5 .grid .miumiu {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page5 .grid .miumiu {
+    text-align: left;
+  }
+}
+
+main .page5 .grid .miumiu .img-box img {
+  width: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page5 .grid .miumiu .img-box img {
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main .page5 .grid .miumiu .text-box {
+    margin-left: 53%;
+    padding-top: 8%;
+  }
+}
+
+main .page5 .grid .miumiu .text-box p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+main .page5 .grid .miumiu .text-box span {
+  font-size: 15px;
+  color: #fff;
+}
+
+main .page5 .grid .miumiu .text-box button {
+  margin-top: 10px;
+  margin-left: 46%;
+  display: block;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: black;
+}
+
+@media screen and (min-width: 1024px) {
+  main .page5 .grid .miumiu .text-box button {
+    margin-left: 0;
+  }
+}
+
+footer div {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  footer div {
+    margin-top: 180px;
+  }
+}
+
+footer div hr {
+  width: 100%;
+}
+
+footer div h3 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+/*# sourceMappingURL=index.css.map */
